@@ -62,7 +62,106 @@ Company: Infosys
 Duration: 8 weeks  
 
 ## Output
-Displays internship report with progress and status.
+```
+===== Internship Tracking System =====
+Enter Student Name: Kaveri
+Enter Student ID (USN): 4AL23CS062
+Enter Company Name: Infosys
+Enter Internship Duration (in weeks): 8
+
+Menu:
+1. Update Progress
+2. View Internship Report
+3. Check Completion Status
+4. Exit
+Enter your choice: 2
+
+===== Internship Report =====
+Student Name   : Kaveri
+Student ID     : 4AL23CS062
+Company Name   : Infosys
+Duration       : 8 weeks
+Progress       : 0.0%
+Status         : In Progress
+==============================
+
+
+Menu:
+1. Update Progress
+2. View Internship Report
+3. Check Completion Status
+4. Exit
+Enter your choice: 1
+Enter progress (0–100): 50
+Progress updated successfully!
+
+Menu:
+1. Update Progress
+2. View Internship Report
+3. Check Completion Status
+4. Exit
+Enter your choice: 2
+
+===== Internship Report =====
+Student Name   : Kaveri
+Student ID     : 4AL23CS062
+Company Name   : Infosys
+Duration       : 8 weeks
+Progress       : 50.0%
+Status         : In Progress
+==============================
+
+
+Menu:
+1. Update Progress
+2. View Internship Report
+3. Check Completion Status
+4. Exit
+Enter your choice: 3
+Internship is still ongoing.
+
+Menu:
+1. Update Progress
+2. View Internship Report
+3. Check Completion Status
+4. Exit
+Enter your choice: 1
+Enter progress (0–100): 100
+Progress updated successfully!
+
+Menu:
+1. Update Progress
+2. View Internship Report
+3. Check Completion Status
+4. Exit
+Enter your choice: 2
+
+===== Internship Report =====
+Student Name   : Kaveri
+Student ID     : 4AL23CS062
+Company Name   : Infosys
+Duration       : 8 weeks
+Progress       : 100.0%
+Status         : Completed
+==============================
+
+
+Menu:
+1. Update Progress
+2. View Internship Report
+3. Check Completion Status
+4. Exit
+Enter your choice: 3
+Internship successfully completed!
+
+Menu:
+1. Update Progress
+2. View Internship Report
+3. Check Completion Status
+4. Exit
+Enter your choice: 4
+Exiting... Thank you!
+```
 
 ##  Author
 Kaveri
