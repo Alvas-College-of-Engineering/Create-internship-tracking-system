@@ -10,6 +10,14 @@ A simple Java-based application to manage and track student internship details.
 - Check completion status
 - Display internship report
 
+## Screenshots
+### Home Page
+![Home Page](images/home_page.png)
+
+### Internship Report (Completed)
+Sample Input: Student Name: Kaveri, Student ID: 4AL23CS062, Company: Infosys, Duration: 8 weeks  
+![Web Output](images/web_output.png)
+
 ##  Technologies Used
 - Java
 - OOP Concepts (Classes, Objects, Encapsulation)
@@ -54,15 +62,6 @@ javac -cp path/to/servlet-api.jar -d WebContent/WEB-INF/classes src/com/internsh
 3. Use the web pages:
    - `index.jsp` to create a new internship record
    - `report.jsp` to update progress and view completion status
-
-##  Sample Input
-Student Name: Kaveri  
-Student ID: 4AL23CS062  
-Company: Infosys  
-Duration: 8 weeks  
-
-## Output
-![Web Output](images/web_output.png)
 
 ##  Author
 Kaveri
